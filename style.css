@@ -1,0 +1,25 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+p,h1,h2,h3,h4,h5,h6 {
+	margin-top: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+header {
+	height: 464px;
+	width: 100%;
+}
+
+.header-image {
+	height: 464px;
+	background-image: url("images/ポートフォリオ/about-navi-画像.png")
+}

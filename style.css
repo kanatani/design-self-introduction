@@ -11,6 +11,8 @@ p,h1,h2,h3,h4,h5,h6 {
 }
 
 a {
+	margin: 0;
+	padding: 0;
 	text-decoration: none;
 	font-family: "Didot";
 	color: #FFFFFF;
@@ -29,6 +31,7 @@ ul {
 	padding: 0;
 }
 
+/*header共通部分*/
 header {
 	height: 464px;
 	width: 1366px;
@@ -53,8 +56,8 @@ header a::after{
 }
 
 .hedaer-image {
+	background: transparent url('images/header-images/about-nav-img.png') 0% 0% no-repeat padding-box;
 	height: 464px;
-	background-image: url("images/ポートフォリオ/about-nav-img.png");
 	border-bottom-left-radius: 90% 20%;
     border-bottom-right-radius: 90% 20%; 
 }
@@ -96,6 +99,8 @@ main {
 	height: 400px;
 }	
 
+/*footer共通部分*/
+
 footer {
 	height: 300px;
 	background: #3366CC 0% 0% no-repeat padding-box;
@@ -103,11 +108,22 @@ footer {
 	margin: auto;
 }
 
+/*aのhover時の設定*/
+footer a {
+	transition : 0.5s;
+}
+
+footer a:hover {
+	opacity: 0.6;
+	transition : 0.5s;
+}
+
 .footer-contents {
 	margin-right: 120px;
 	margin-left: 121px;
 }
 
+/*footerのKanatani Naoki*/
 .footer-name {
 	padding-top: 65px;
 }
@@ -119,6 +135,7 @@ footer {
 	text-align: left;
 }
 
+/*footerのナビゲーション*/
 .footer-nav {
 	float: left;
 	padding-top: 30px;
@@ -149,30 +166,18 @@ footer {
 	display: flex;
 }
 
-.footer-sns li {
-	margin-left: 20.5px;
-	width: 149px;
-	height: 40px;
-	position: relative;
-}
+/*snsのナビゲーション*/
 
 .footer-sns li a{
 	display: flex;
 	text-align: center;
 }
 
-.footer-sns-icon {
-	font-size: 40px;
-	margin-right: 15px;
-}
-
-.footer-sns ul p {
-	letter-spacing: 0.4px;
-	font-size: 20px;
-	line-height: 40px;
-}
-
 .footer-sns-parts li {
+	margin-left: 20.5px;
+	width: 149px;
+	height: 40px;
+	position: relative;
 	margin-right: 20.5px;
 	text-align: center;
 }
@@ -188,6 +193,40 @@ footer {
 	background-color: #ffffff;
 }
 
+.footer-sns-parts li:nth-child(1) {
+	width: 149px;
+}
+
+.footer-sns-parts li:nth-child(2) {
+	width: 129px;
+}
+
+.footer-sns-parts li:nth-child(3) {
+	width: 146px;
+}
+
+.footer-sns-parts li p {
+	letter-spacing: 0.4px;
+	font-size: 20px;
+	line-height: 40px;
+}
+
+.footer-sns-icon {
+	font-size: 40px;
+}
+
+.fa-instagram {
+	margin-right: 15px;
+}
+
+.fa-facebook-f {
+	margin-right: 23px;
+}
+
+.fa-twitter {
+	margin-right: 17px;
+}
+
 .small {
 	clear: both;
 	text-align: center;
@@ -196,8 +235,9 @@ footer {
 	padding-top: 33.52px;
 }
 
-
-
-
-
-
+/*コンタクトページ*/
+.contact-image {
+	background: transparent url("images/header-images/contact.png") 0% 0% no-repeat padding-box;
+	background-size: cover;
+	background-position: center;
+}

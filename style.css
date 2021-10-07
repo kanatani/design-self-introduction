@@ -7,7 +7,7 @@ body {
 }
 
 p,h1,h2,h3,h4,h5,h6 {
-	margin-top: 0;
+	margin: 0px;
 }
 
 a {
@@ -96,7 +96,6 @@ header a::after{
 
 main {
 	clear: both;
-	height: 400px;
 }	
 
 .main-title {
@@ -251,3 +250,71 @@ footer a:hover {
 	background-size: cover;
 	background-position: center;
 }
+
+/*コンタクトページメイン*/
+
+.contact {
+	height: 665px;
+}
+
+.contact-message {
+	width: 736px;
+	height: 54px;
+	margin: 68px auto 0px;
+}
+
+.contact-message p{
+	text-align: center;
+	font: normal normal normal 20px/34px Hiragino Mincho ProN;
+	letter-spacing: 0.4px;
+	color: #050505;
+	opacity: 0.7;
+}
+
+.button-list {
+	display: flex;
+	justify-content: center;
+  　align-items: center;
+	padding: 126px 0px 124px 0px;
+
+}
+
+.contact-button {
+	margin: 0 40px;
+	width: 269px;
+	height: 84px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.contact-button p {
+	font: normal normal normal 30px/38px Didot;
+	letter-spacing: 1.5px;
+}
+
+.facebook-button {
+	border: 1px solid #3366CC;
+}
+
+.facebook-button p{
+	color: #3366CC;
+}
+
+.twitter-button {
+	border: 1px solid #99CCFF;
+}
+
+.twitter-button p{
+	color: #99CCFF;
+}
+
+.blog-button {
+	border: 1px solid #CCCCCC;
+}
+
+.blog-button p{
+	color: #CCCCCC;
+}
+
+

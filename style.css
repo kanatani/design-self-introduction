@@ -99,8 +99,18 @@ main {
 	height: 400px;
 }	
 
-/*footer共通部分*/
+.main-title {
+	margin-top: 123px;
+}
 
+.main-title h2{
+	text-align: center;
+	font: normal normal normal 70px/89px Didot;
+	letter-spacing: 0px;
+	color: #99CCFF;
+}
+
+/*footer共通部分*/
 footer {
 	height: 300px;
 	background: #3366CC 0% 0% no-repeat padding-box;

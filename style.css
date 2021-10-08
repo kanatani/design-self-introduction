@@ -271,6 +271,8 @@ footer a:hover {
 	opacity: 0.7;
 }
 
+
+/*contactボタン*/
 .button-list {
 	display: flex;
 	justify-content: center;
@@ -286,6 +288,12 @@ footer a:hover {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.contact-button:hover{
+	transition: 0.5s;
 }
 
 .contact-button p {
@@ -293,7 +301,16 @@ footer a:hover {
 	letter-spacing: 1.5px;
 }
 
+.contact-button:hover .sns-button-text{
+	color: #FFFFFF;
+}
+
 .facebook-button {
+	border: 1px solid #3366CC;
+}
+
+.facebook-button:hover {
+	background: #3366CC 0% 0% no-repeat padding-box;
 	border: 1px solid #3366CC;
 }
 
@@ -305,6 +322,11 @@ footer a:hover {
 	border: 1px solid #99CCFF;
 }
 
+.twitter-button:hover {
+	background: #99CCFF 0% 0% no-repeat padding-box;
+	border: 1px solid #99CCFF;
+}
+
 .twitter-button p{
 	color: #99CCFF;
 }
@@ -313,8 +335,14 @@ footer a:hover {
 	border: 1px solid #CCCCCC;
 }
 
+.blog-button:hover {
+	border: 1px solid #CCCCCC;
+	background: #CCCCCC 0% 0% no-repeat padding-box;
+}
+
 .blog-button p{
 	color: #CCCCCC;
 }
+
 
 

@@ -94,9 +94,19 @@ header a::after{
 	font-size: 30px;
 }
 
+main,footer {
+	width: 1366px;
+	margin: 0 auto;
+}
+
 main {
 	clear: both;
 }	
+
+.common {
+	width: 1127px;
+	margin: 0px auto;
+}
 
 .main-title {
 	margin-top: 123px;
@@ -109,12 +119,9 @@ main {
 	color: #99CCFF;
 }
 
-/*footer共通部分*/
 footer {
 	height: 300px;
 	background: #3366CC 0% 0% no-repeat padding-box;
-	width: 1366px;
-	margin: auto;
 }
 
 /*aのhover時の設定*/
@@ -359,8 +366,6 @@ footer a:hover {
 }
 
 .portfolio-part {
-	margin-right: 120px;
-	margin-left: 120px;
 	margin-top: 200px;
 	height: 446px;
 	clear: both;
@@ -376,19 +381,11 @@ footer a:hover {
 	height: 446px;
 }
 
-.right-introduct {
+.right-introduct,.right-image {
 	float: right;
 }
 
-.left-introduct {
-	float: left;
-}
-
-.right-image {
-	float: right;
-}
-
-.left-image {
+.left-introduct, .left-image{
 	float: left;
 }
 
@@ -455,5 +452,61 @@ footer a:hover {
 	width: 112.91px;
 }
 
+/*アバウトページ*/
 
+.about-list {
+	margin-top: 100px;
+}
 
+.about-list-part {
+	margin: 161px 0px 175px 0px;
+}
+
+.now-parts {
+	height: 512px;
+}
+
+.about-parts-title {
+	width: 80px;
+	height: 50px;
+	margin: 0 auto;
+}
+
+.about-parts-title h2{
+	text-align: center;
+	text-decoration: underline;
+	font: normal normal normal 40px/51px Didot;
+	color: #99CCFF;
+}
+
+.my-info-parts {
+	margin-top: 123px;
+	height: 339px;
+	display: flex;
+}
+
+.my-info-introduct {
+	margin-right: 239px;
+}
+
+.my-info-name {
+	width: 200px;
+	height: 50px;
+	font: normal normal normal 50px/85px Hiragino Mincho ProN;
+	color: #000303;
+}
+
+.my-info-detail {
+	margin-top: 54px;
+	width: 426px;
+	height: 170px;
+	font: normal normal normal 22px/37px Hiragino Mincho ProN;
+	letter-spacing: 0.44px;
+	color: #000202;
+}
+
+.my-info-image img{
+	width: 462px;
+	height: 339px;
+	border-radius: 57px;
+}

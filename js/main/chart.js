@@ -23,7 +23,6 @@
    }
  });
 
-
  var ctxtwo = document.getElementById("Twochart");
  var myRadarChartTwo = new Chart(ctxtwo, {
    type: 'radar',

@@ -34,8 +34,8 @@ ul {
 /*header共通部分*/
 header {
 	height: 464px;
-	width: 1366px;
-	margin: auto
+	width: 100%;
+	margin: auto;
 }
 
 header a::after{
@@ -55,11 +55,13 @@ header a::after{
   transform: scale(1, 1);
 }
 
-.hedaer-image {
+.header-image {
 	background: transparent url('images/header-images/about-nav-img.png') 0% 0% no-repeat padding-box;
 	height: 464px;
 	border-bottom-left-radius: 90% 20%;
     border-bottom-right-radius: 90% 20%; 
+	background-position: center top;
+	background-size: cover;
 }
 
 .header-parts-space {
@@ -101,6 +103,7 @@ main,footer {
 
 main {
 	clear: both;
+	margin-bottom: 250px;
 }	
 
 .common {
@@ -119,8 +122,14 @@ main {
 	color: #99CCFF;
 }
 
+.content {
+	margin: 250px auto 0 auto;
+	height: auto;
+}
+
 footer {
 	height: 300px;
+	width: 100%;
 	background: #3366CC 0% 0% no-repeat padding-box;
 }
 
@@ -149,6 +158,10 @@ footer a:hover {
 	letter-spacing: 0.6px;
 	height: 37px;
 	text-align: left;
+}
+
+.content-parts {
+	margin-top: 100px;
 }
 
 /*footerのナビゲーション*/
@@ -251,6 +264,14 @@ footer a:hover {
 	padding-top: 33.52px;
 }
 
+/*トップページ*/
+#top-footer {
+	background: transparent 0% 0% no-repeat padding-box;
+	width: 138px;
+	height: 25px;
+	margin-top: 200px;
+}
+
 /*コンタクトページ*/
 .contact-image {
 	background: transparent url("images/header-images/contact.png") 0% 0% no-repeat padding-box;
@@ -258,16 +279,14 @@ footer a:hover {
 	background-position: center;
 }
 
-/*コンタクトページメイン*/
-
 .contact {
-	height: 665px;
+	height: auto;
 }
 
 .contact-message {
 	width: 736px;
 	height: 54px;
-	margin: 68px auto 0px;
+	margin: 68px auto;
 }
 
 .contact-message p{
@@ -278,14 +297,12 @@ footer a:hover {
 	opacity: 0.7;
 }
 
-
 /*contactボタン*/
 .button-list {
 	display: flex;
 	justify-content: center;
   　align-items: center;
-	padding: 126px 0px 124px 0px;
-
+	margin: 126px 0px 124px 0px;
 }
 
 .contact-button {
@@ -358,17 +375,7 @@ footer a:hover {
 }
 
 .portfolio {
-	height: 2404px;
-}
-
-.portfolio-list {
-	margin-top: 100px;
-}
-
-.portfolio-part {
-	margin-top: 200px;
-	height: 446px;
-	clear: both;
+	height: auto;
 }
 
 .portfolio-image {
@@ -377,7 +384,7 @@ footer a:hover {
 }
 
 .portfolio-introduct {
-	width: 375px;
+	width: 324px;
 	height: 446px;
 }
 
@@ -387,10 +394,6 @@ footer a:hover {
 
 .left-introduct, .left-image{
 	float: left;
-}
-
-.portfolio-introduct {
-	width: 324px;
 }
 
 .portfolio-part-title {
@@ -452,18 +455,15 @@ footer a:hover {
 	width: 112.91px;
 }
 
+.clear-fix:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
 /*アバウトページ*/
-
-.about-list {
-	margin-top: 100px;
-}
-
-.about-list-part {
-	margin: 161px 0px 175px 0px;
-}
-
-.now-parts {
-	height: 512px;
+.about {
+	height: auto;
 }
 
 .about-parts-title {
@@ -509,4 +509,40 @@ footer a:hover {
 	width: 462px;
 	height: 339px;
 	border-radius: 57px;
+}
+
+.chart-parts {
+	width: 801px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*skill*/
+.my-skill-chart-list {
+	display: flex;
+}
+
+.my-skill-chart {
+	margin-right: 223px;
+}
+
+.my-skill-list h2 {
+	width: 188px;
+	height: 37px;
+	font: normal normal normal 30px/38px Didot;
+	color: #000202;
+}
+
+.my-skill-list li {
+	width: 126px;
+	height: 24px;
+	font: normal normal normal 19px/43px Didot;
+	letter-spacing: 0.38px;
+	color: #000202;
+	margin: 15px 0px;
+}
+
+#skill-two-part {
+	margin-top: 70px;
 }

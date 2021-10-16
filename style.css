@@ -93,6 +93,10 @@ header a::after{
 	margin: 0 40px;
 }
 
+.home-part {
+	display: none;
+}
+
 .head-part a{
 	font-size: 30px;
 }
@@ -570,20 +574,15 @@ footer a:hover {
 	
 	footer {
 		position: absolute;/* ←絶対位置 */
-        bottom: 0;
-		left: 100;
-		text-align: center;
+        bottom: 30px;
+		left: 50%;
+		transform: translate(-50%, 0);
 	}
 	
 	header {
 		width: auto;
 		height: 64px;
 	}
-	
-	.header-nav {
-		display: none;
-	}
-	
 	
 	.hamburger {
 		margin-top: 10px;
@@ -594,6 +593,7 @@ footer a:hover {
 		height: 33px;
 		mix-blend-mode: normal;
 		cursor: pointer;
+		z-index: 999;
 	}
 	
 	.hamburger span {
@@ -602,6 +602,7 @@ footer a:hover {
 		height: 0px;
 		width: 100%;
 		border: 1px solid #FFFFFF;
+		transition: all .4s;
 	}	
 	
 	.hamburger span:nth-of-type(1) {
@@ -631,7 +632,6 @@ footer a:hover {
 	}
 	
     /* topページ	*/
-	
 	.response-top-name {
 		margin-top: 10px;
 		width: 121px;
@@ -643,6 +643,46 @@ footer a:hover {
 		font: normal normal normal 30px/30px Didot;
 		line-height: 30px;
 	}
+	
+	.header-nav {
+		position:fixed;
+		z-index: -1;
+		opacity: -1;
+		top:0;
+		left: 0;
+		width:100%;
+		height: 100vh;
+		background: #3366CC;
+		transition: all 0.3s;
+	}
+	
+	.nav-active {
+		margin: 0;
+		opacity: 0.8;
+		z-index:998;
+	}
+	
+	.header-nav ul{
+		display: none;
+	}
+	
+	.nav-active ul{
+		display: flex;
+		flex-flow: column;
+ 		justify-content:space-between;
+    	position: absolute;
+    	z-index: 998;
+    	top:50%;
+    	left:50%;
+    	transform: translate(-50%,-50%);
+	}
+	
+	.nav-active li{
+		display: inline-block;
+		text-align: center;
+		margin: 40px 0;
+	}
+	
 	
 	
 }

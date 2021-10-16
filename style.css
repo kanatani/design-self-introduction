@@ -565,11 +565,9 @@ footer a:hover {
 		max-width: 100%;
 	}
 	
-	#index {
- 		min-height: 100vh; /* ←コンテンツの高さの最小値＝ブラウザの高さに指定 */
-    	position: relative;/* ←相対位置 */
-    	padding-bottom: 60px; /* ←フッターの高さを指定 */
-    	box-sizing: border-box;
+	header {
+		width: auto;
+		height: 64px;
 	}
 	
 	footer {
@@ -579,11 +577,8 @@ footer a:hover {
 		transform: translate(-50%, 0);
 	}
 	
-	header {
-		width: auto;
-		height: 64px;
-	}
 	
+     /* ハンバーガーメニュー	*/
 	.hamburger {
 		margin-top: 10px;
 		position: relative;
@@ -631,12 +626,6 @@ footer a:hover {
     	transform: translateY(-6px) rotate(45deg);
 	}
 	
-    /* topページ	*/
-	.response-top-name {
-		margin-top: 10px;
-		width: 121px;
-		height: 67px;
-	}
 	
 	.response-top-name a{
 		text-align: left;
@@ -682,6 +671,22 @@ footer a:hover {
 		text-align: center;
 		margin: 40px 0;
 	}
+	
+	    /* topページ	*/
+	
+	#index {
+ 		min-height: 100vh; 
+    	position: relative;
+    	padding-bottom: 60px; 
+    	box-sizing: border-box;
+	}
+	
+	.response-top-name {
+		margin-top: 10px;
+		width: 121px;
+		height: 67px;
+	}
+	
 	
 	
 	

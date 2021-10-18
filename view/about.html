@@ -11,9 +11,11 @@
 <header>
   <div class="header-image">
     <div class="header-parts-space">
-      <div class="header-name"> <a href="top.html">Naoki Kanatani</a> </div>
-      <nav class="header-nav">
-        <ul class="header-nav-parts">
+      <div class="header-name response-top-name"><a href="/view/index.html">Naoki Kanatani</a></div>
+      <div class="hamburger" id="hamburger"> <span></span> <span></span> <span></span> </div>
+      <nav class="header-nav" id="navi">
+        <ul class="header-nav-parts" id="nav-parts">
+          <li class="head-part home-part"><a href="/view/index.html">HOME</a></li>
           <li class="head-part"><a href="/view/about.html">About</a></li>
           <li class="head-part"><a href="/view/portfolio.html">Portfolio</a></li>
           <li class="head-part"><a href="/view/contact.html">Contact</a></li>
@@ -33,12 +35,12 @@
           <div class="about-parts-title">
             <h2>Now</h2>
           </div>
-          <div class="my-info-parts">
+          <div class="my-info-parts  flex-right">
+            <div class="my-info-image"> <img src="../images/about/myinfo.jpg" alt="自己紹介画像"> </div>
             <div class="my-info-introduct">
               <h2 class="my-info-name">金谷尚輝</h2>
               <p class="my-info-detail">関西大学に入学。軽音楽部に入り、様々な音楽のジャンルを学びながら経験を積んでいく。現在は、Webデザイナーを志望しており、プログラミングとデザインを学んでいる。</p>
             </div>
-            <div class="my-info-image"> <img src="../images/about/myinfo.jpg" alt="自己紹介画像"> </div>
           </div>
         </div>
         <div class="content about-list-part chart-parts">
@@ -48,7 +50,7 @@
           <div class="my-info-parts" id="skill-one-part">
             <div class="my-skill-chart-list first">
               <div class="my-skill-chart">
-                <canvas id="Onechart" width="300" height="300"></canvas>
+                <canvas id="Onechart"></canvas>
               </div>
               <div class="my-skill-list">
                 <div class="program-skill-list">
@@ -67,7 +69,7 @@
           <div class="my-info-parts" id="skill-two-part">
             <div class="my-skill-chart-list second">
               <div class="my-skill-chart">
-                <canvas id="Twochart" width="300" height="300"></canvas>
+                <canvas id="Twochart"></canvas>
               </div>
               <div class="my-skill-list">
                 <div class="program-skill-list">
@@ -88,12 +90,12 @@
           <div class="about-parts-title Future-title">
             <h2>Future</h2>
           </div>
-          <div class="my-info-parts">
+          <div class="my-info-parts flex-right">
+            <div class="my-info-image"> <img src="../images/about/about３.jpg" alt="将来像の画像"> </div>
             <div class="my-info-introduct">
               <h2 class="my-info-name">将来像</h2>
               <p class="my-info-detail">今後はお客様が使いやすいUI/UXをご提案しつつ、コーディングやプログラミングの知識を活かしていきたいと考えています。 そして、お客様に寄り添ったデザインを作って行くことを目標として頑張ります。</p>
             </div>
-            <div class="my-info-image"> <img src="../images/about/about３.jpg" alt="将来像の画像"> </div>
           </div>
         </div>
       </div>
@@ -103,18 +105,7 @@
 <footer>
   <div class="footer-contents">
     <div class="footer-left">
-      <div class="footer-name"> <a href="">Naoki Kanatani</a> </div>
-      <div class="footer-nav">
-        <nav>
-          <ul>
-            <li class="footer-navi-part"><a href="/view/about.html">About</a></li>
-            <li class="footer-navi-part"><a href="/view/portfolio.html">Portfolio</a></li>
-            <li class="footer-navi-part"><a href="/view/contact.html">Contact</a></li>
-          </ul>
-        </nav>
-      </div>
-    </div>
-    <div class="footer-right">
+      <div class="footer-name"> <a href="/view/index.html">Naoki Kanatani</a> </div>
       <div class="footer-sns">
         <nav>
           <ul class="footer-sns-parts">
@@ -131,10 +122,22 @@
         </nav>
       </div>
     </div>
+    <div class="footer-right">
+      <div class="footer-nav">
+        <nav>
+          <ul>
+            <li class="footer-navi-part"><a href="/view/about.html">About</a></li>
+            <li class="footer-navi-part"><a href="/view/portfolio.html">Portfolio</a></li>
+            <li class="footer-navi-part"><a href="/view/contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
     <div class="small"> <small>© Naoki Kanatani</small> </div>
   </div>
 </footer>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.5.1/chart.min.js" integrity="sha512-Wt1bJGtlnMtGP0dqNFH1xlkLBNpEodaiQ8ZN5JLA5wpc1sUlk/O5uuOMNgvzddzkpvZ9GLyYNa8w2s7rqiTk5Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> 
-<script src="../js/main/chart.js"></script>
+<script src="../js/main/chart.js"></script> 
+<script src="../js/main/hunburger.js"></script>
 </body>
 </html>

@@ -238,9 +238,6 @@ footer a:hover {
   background-size: cover;
   background-position: center;
 }
-.contact {
-  height: auto;
-}
 .contact-message {
   width: 736px;
   height: 54px;
@@ -481,11 +478,13 @@ footer a:hover {
   }
   header {
     width: 100%;
-    height: 64px;
+    height: 180px;
   }
+	
   .header-image {
-    border-bottom-left-radius: 100% 10%;
-    border-bottom-right-radius: 100% 10%;
+    border-bottom-left-radius: 70% 20%;
+    border-bottom-right-radius: 70% 20%;
+    height: 180px;
   }
   /* ハンバーガーメニュー	*/
   .hamburger {
@@ -653,12 +652,11 @@ footer a:hover {
     transform: translate(-50%, 0);
   }
   main {
-    margin: 460px auto 0 auto;
+    margin: 60px auto 0 auto;
     width: 100%;
-    height: auto;
   }
   .main-title {
-    width: 84px;
+    width: 106px;
     height: 37px;
     margin: auto;
   }
@@ -678,6 +676,9 @@ footer a:hover {
     margin-top: 60px;
   }
   /*	About*/
+  #main-about {
+    height: 2300px;
+  }
   .about-list-part {
     height: auto;
     width: 100%;
@@ -725,6 +726,32 @@ footer a:hover {
   .my-skill-list {
     display: none;
   }
-	
-	
+  /* contact */
+  .contact-message {
+    width: 296px;
+    height: 27px;
+  }
+  .contact-message p {
+    font: normal normal normal 10px/17px Hiragino Mincho ProN;
+    letter-spacing: 0.2px;
+  }
+  .button-list {
+    flex-direction: column;
+    align-items: center;
+    margin: 90px auto;
+  }
+  .contact-button {
+    width: 166px;
+    height: 60px;
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  .contact-button:nth-of-type(3) {
+    margin-bottom: 0px;
+  }
+  .contact-button p {
+    font: normal normal normal 15px/18px Didot;
+    width: 70px;
+    height: 18px;
+  }
 }

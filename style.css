@@ -232,159 +232,6 @@ footer a:hover {
 .top-small-logo {
   padding-top: 0px;
 }
-/*コンタクトページ*/
-.contact-image {
-  background: transparent url("images/header-images/contact.png") 0% 0% no-repeat padding-box;
-  background-size: cover;
-  background-position: center;
-}
-.contact-message {
-  width: 736px;
-  height: 54px;
-  margin: 68px auto;
-}
-.contact-message p {
-  text-align: center;
-  font: normal normal normal 20px/34px Hiragino Mincho ProN;
-  letter-spacing: 0.4px;
-  color: #050505;
-  opacity: 0.7;
-}
-/*contactボタン*/
-.button-list {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 126px 0px 124px 0px;
-}
-.contact-button {
-  margin: 0 40px;
-  width: 269px;
-  height: 84px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: 0.5s;
-  cursor: pointer;
-}
-.contact-button:hover {
-  transition: 0.5s;
-}
-.contact-button p {
-  font: normal normal normal 30px/38px Didot;
-  letter-spacing: 1.5px;
-}
-.contact-button:hover .sns-button-text {
-  color: #FFFFFF;
-}
-.facebook-button {
-  border: 1px solid #3366CC;
-}
-.facebook-button:hover {
-  background: #3366CC 0% 0% no-repeat padding-box;
-  border: 1px solid #3366CC;
-}
-.facebook-button p {
-  color: #3366CC;
-}
-.twitter-button {
-  border: 1px solid #99CCFF;
-}
-.twitter-button:hover {
-  background: #99CCFF 0% 0% no-repeat padding-box;
-  border: 1px solid #99CCFF;
-}
-.twitter-button p {
-  color: #99CCFF;
-}
-.blog-button {
-  border: 1px solid #CCCCCC;
-}
-.blog-button:hover {
-  border: 1px solid #CCCCCC;
-  background: #CCCCCC 0% 0% no-repeat padding-box;
-}
-.blog-button p {
-  color: #CCCCCC;
-}
-/*ポートフォリオページ*/
-.header-portfolio-image {
-  background: transparent url('images/header-images/portfoliotop.jpg') 0% 0% no-repeat padding-box;
-  background-position: center top;
-}
-.portfolio {
-  height: auto;
-}
-.portfolio-image {
-  width: 745px;
-  height: 446px;
-}
-.portfolio-introduct {
-  width: 324px;
-  height: 446px;
-}
-.right-introduct, .right-image {
-  float: right;
-}
-.left-introduct, .left-image {
-  float: left;
-}
-.portfolio-part-title {
-  height: 50px;
-  margin-top: 71px;
-  display: inline-block;
-  font: normal normal normal 40px/50px Didot;
-  color: #3366CC;
-}
-.portfolio-part-introduct {
-  margin-top: 75px;
-  font: normal normal normal 20px/60px Hiragino Mincho ProN;
-  color: #99CCFF;
-}
-.arrow-parts {
-  margin-top: 46px;
-  width: 300px;
-  height: 37px;
-}
-.portfolio-link {
-  display: flex;
-  align-items: center;
-}
-.arrow {
-  width: 92px;
-  height: 0px;
-  border: 2px solid #3366CC;
-  position: relative;
-  line-height: 37px;
-  transition: 0.5s;
-}
-.arrow:after {
-  position: absolute;
-  content: "";
-  width: 16px;
-  height: 16px;
-  border: 4px solid #3366CC;
-  border-radius: 50px;
-  top: -11px;
-  right: -22px;
-}
-.portfolio-link p {
-  margin-left: 41px;
-  width: 99px;
-  height: 37px;
-  font: normal normal normal 30px/38px Didot;
-  letter-spacing: 1.8px;
-  color: #3366CC;
-}
-.portfolio-link:hover .arrow {
-  transition: 0.5s;
-  width: 112.91px;
-}
-.clear-fix:after {
-  content: "";
-  display: block;
-  clear: both;
-}
 /*アバウトページ*/
 .about {
   height: auto;
@@ -465,6 +312,157 @@ footer a:hover {
 #skill-two-part {
   margin-top: 70px;
 }
+/*ポートフォリオページ*/
+.header-portfolio-image {
+  background: transparent url('images/header-images/portfoliotop.jpg') 0% 0% no-repeat padding-box;
+  background-position: center top;
+  background-size: cover;
+}
+.portfolio-image {
+  width: 745px;
+  height: 446px;
+}
+.portfolio-introduct {
+  width: 324px;
+  height: 446px;
+}
+.right-introduct, .right-image {
+  float: right;
+}
+.left-introduct, .left-image {
+  float: left;
+}
+.portfolio-part-title {
+  height: 50px;
+  margin-top: 71px;
+  display: inline-block;
+  font: normal normal normal 40px/50px Didot;
+  color: #3366CC;
+}
+.portfolio-part-introduct {
+  margin-top: 75px;
+  font: normal normal normal 20px/60px Hiragino Mincho ProN;
+  color: #99CCFF;
+}
+.arrow-parts {
+  margin-top: 46px;
+  width: 300px;
+  height: 37px;
+}
+.portfolio-link {
+  display: flex;
+  align-items: center;
+}
+.arrow {
+  width: 92px;
+  height: 0px;
+  border: 2px solid #3366CC;
+  position: relative;
+  line-height: 37px;
+  transition: 0.5s;
+}
+.arrow:after {
+  position: absolute;
+  content: "";
+  width: 16px;
+  height: 16px;
+  border: 4px solid #3366CC;
+  border-radius: 50px;
+  top: -11px;
+  right: -22px;
+}
+.portfolio-link p {
+  margin-left: 41px;
+  width: 99px;
+  height: 37px;
+  font: normal normal normal 30px/38px Didot;
+  letter-spacing: 1.8px;
+  color: #3366CC;
+}
+.portfolio-link:hover .arrow {
+  transition: 0.5s;
+  width: 112.91px;
+}
+.clear-fix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+/*コンタクトページ*/
+.contact-image {
+  background: transparent url("images/header-images/contact.png") 0% 0% no-repeat padding-box;
+  background-size: cover;
+  background-position: center;
+}
+.contact-message {
+  width: 736px;
+  height: 54px;
+  margin: 68px auto;
+}
+.contact-message p {
+  text-align: center;
+  font: normal normal normal 20px/34px Hiragino Mincho ProN;
+  letter-spacing: 0.4px;
+  color: #050505;
+  opacity: 0.7;
+}
+/*contactボタン*/
+.button-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 126px 0px 124px 0px;
+}
+.contact-button {
+  margin: 0 40px;
+  width: 269px;
+  height: 84px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.contact-button:hover {
+  transition: 0.5s;
+}
+.contact-button p {
+  font: normal normal normal 30px/38px Didot;
+  letter-spacing: 1.5px;
+}
+.contact-button:hover .sns-button-text {
+  color: #FFFFFF;
+}
+.facebook-button {
+  border: 1px solid #3366CC;
+}
+.facebook-button:hover {
+  background: #3366CC 0% 0% no-repeat padding-box;
+  border: 1px solid #3366CC;
+}
+.facebook-button p {
+  color: #3366CC;
+}
+.twitter-button {
+  border: 1px solid #99CCFF;
+}
+.twitter-button:hover {
+  background: #99CCFF 0% 0% no-repeat padding-box;
+  border: 1px solid #99CCFF;
+}
+.twitter-button p {
+  color: #99CCFF;
+}
+.blog-button {
+  border: 1px solid #CCCCCC;
+}
+.blog-button:hover {
+  border: 1px solid #CCCCCC;
+  background: #CCCCCC 0% 0% no-repeat padding-box;
+}
+.blog-button p {
+  color: #CCCCCC;
+}
 @media screen and (max-width:600px) {
   body {
     max-width: 599px;
@@ -480,7 +478,6 @@ footer a:hover {
     width: 100%;
     height: 180px;
   }
-	
   .header-image {
     border-bottom-left-radius: 70% 20%;
     border-bottom-right-radius: 70% 20%;
@@ -579,7 +576,7 @@ footer a:hover {
     height: 37px;
   }
   .footer-name a {
-    font: normal normal normal 20px/20px Didot;
+    font: normal normal normal 25px/25px Didot;
   }
   /*footerのナビゲーション*/
   .footer-nav, .footer-sns {
@@ -652,7 +649,7 @@ footer a:hover {
     transform: translate(-50%, 0);
   }
   main {
-    margin: 60px auto 0 auto;
+    margin: 60px auto 150px auto;
     width: 100%;
   }
   .main-title {
@@ -665,7 +662,7 @@ footer a:hover {
   }
   .content {
     max-width: 90%;
-    margin-top: 90px;
+    margin-top: 120px;
   }
   canvas {
     margin: auto;
@@ -675,9 +672,9 @@ footer a:hover {
   .content-parts {
     margin-top: 60px;
   }
-  /*	About*/
+  /*About*/
   #main-about {
-    height: 2300px;
+    height: auto;
   }
   .about-list-part {
     height: auto;
@@ -693,6 +690,7 @@ footer a:hover {
   .my-info-parts {
     display: block;
     width: 100%;
+	margin-top: 37px;
   }
   .my-info-introduct {
     width: 100%;
@@ -726,13 +724,58 @@ footer a:hover {
   .my-skill-list {
     display: none;
   }
+  /*  portfolio	*/
+  .portfolio-part {
+    margin-top: 100px;
+    width: 470px;
+  }
+  .right-introduct, .left-introduct, .right-image, .left-image {
+    float: none;
+  }
+  .portfolio-image {
+    width: 100%;
+    height: 188px;
+  }
+  .portfolio-introduct {
+    height: auto;
+  }
+  .portfolio-image img {
+    border-radius: 20px;
+  }
+  .portfolio-part-title {
+    font: normal normal normal 30px/38px Didot;
+    margin-top: 40px;
+  }
+  .portfolio-part-introduct {
+    margin-top: 40px;
+    width: 300px;
+    height: 95px;
+    font: normal normal normal 15px/40px Hiragino Mincho ProN;
+  }
+  .arrow-parts {
+    width: 160px;
+  }
+  .arrow {
+    width: 100px;
+  }
+  .arrow:after {
+    position: absolute;
+    content: "";
+    width: 14px;
+    height: 14px;
+  }
+  .portfolio-link p {
+    width: 66px;
+    height: 25px;
+    font: normal normal normal 20px/25px Didot;
+  }
   /* contact */
   .contact-message {
     width: 296px;
     height: 27px;
   }
   .contact-message p {
-    font: normal normal normal 10px/17px Hiragino Mincho ProN;
+    font: normal normal normal 10px/10px Hiragino Mincho ProN;
     letter-spacing: 0.2px;
   }
   .button-list {

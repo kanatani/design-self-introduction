@@ -1,4 +1,7 @@
 // JavaScript Document
+
+'use strict';
+
 const fadeshow = function () {
 
   window.addEventListener("scroll", function () {

@@ -1,5 +1,7 @@
 // JavaScript Document
 
+'use strict';
+
 $("#index").vegas({ // スライドショーにしたい要素指定
     slides: [
         { src: "../images/top/top_1.jpg" }, // 背景画像1枚目

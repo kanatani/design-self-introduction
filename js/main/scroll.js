@@ -11,7 +11,7 @@ const fadeshow = function () {
 
     let windowHeight = window.innerHeight;
 
-    let value = 100;
+    let value = 70;
 
     for (var i = 0; i < scroll.length; i++) {
       let scrollTop = scroll[i].getBoundingClientRect().top + scrollValue;

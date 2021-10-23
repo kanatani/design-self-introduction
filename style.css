@@ -26,6 +26,32 @@ ul {
   margin: 0;
   padding: 0;
 }
+#loading {
+  width: 100%;
+  height: 100%;
+  z-index: 99999;
+  position: fixed;
+  background: #3366CC;
+}
+.loader {
+  display: none;
+  text-align: center;
+  position: fixed;
+  top: 45%;
+  left: 50%;
+  transform: translate(-45%, -50%);
+  color: white;
+  line-height: 30px;
+}
+.loader h2 {
+  font: 40px/40px Hiragino Mincho ProN;
+  letter-spacing: 20px;
+}
+.loader p {
+  margin-top: 20px;
+  font: 20px/20px Hiragino Mincho ProN;
+  letter-spacing: 10px;
+}
 /*header共通部分*/
 header {
   height: 464px;
@@ -107,6 +133,13 @@ main {
 .content {
   margin: 250px auto 0 auto;
   height: auto;
+  opacity: 0;
+  transition: all 1s ease;
+  transform: translate(0, 200px);
+}
+.show {
+  opacity: 1;
+  transform: translate(0, 0);
 }
 footer {
   margin: 0 auto;
@@ -467,6 +500,7 @@ footer a:hover {
   body {
     max-width: 599px;
     margin: auto;
+    -webkit-overflow-scrolling: touch;
   }
   img {
     max-width: 100%;
@@ -606,7 +640,6 @@ footer a:hover {
     margin-left: 0px;
     margin-right: 17.5px;
     height: 40px;
-    text-align: left;
   }
   .footer-sns li a {
     display: flex;
@@ -616,7 +649,6 @@ footer a:hover {
   }
   .footer-sns-parts li p {
     font: normal normal normal 15px/18px Didot;
-    width: 67px;
     height: 18px;
   }
   .footer-sns-icon {
@@ -626,9 +658,13 @@ footer a:hover {
   .small {
     padding-top: 5px;
   }
-  canvas {
-    width: 300px;
-    height: 300px;
+  .loader h2 {
+    font: 30px/30px Hiragino Mincho ProN;
+	line-height: 40px;
+  }
+  .loader p {
+    font: 10px/10px Hiragino Mincho ProN;
+	line-height: 40px;
   }
   /* topページ	*/
   #index {
@@ -649,7 +685,7 @@ footer a:hover {
     transform: translate(-50%, 0);
   }
   main {
-    margin: 60px auto 150px auto;
+    margin: 60px auto 200px auto;
     width: 100%;
   }
   .main-title {
@@ -658,19 +694,16 @@ footer a:hover {
     margin: auto;
   }
   .main-title h2 {
-    font: normal normal normal 30px/38px Didot;
-  }
-  .content {
-    max-width: 90%;
-    margin-top: 120px;
+    font: normal normal normal 25px/30px Didot;
   }
   canvas {
-    margin: auto;
-    width: 300px;
+    margin: 0px;
+    width: 100%;
     height: 217px;
+    text-align: center;
   }
   .content-parts {
-    margin-top: 60px;
+    margin-top: 0px;
   }
   /*About*/
   #main-about {
@@ -679,6 +712,7 @@ footer a:hover {
   .about-list-part {
     height: auto;
     width: 100%;
+    margin-top: 100px;
   }
   .about-parts-title {
     width: 52px;
@@ -690,7 +724,7 @@ footer a:hover {
   .my-info-parts {
     display: block;
     width: 100%;
-	margin-top: 37px;
+    margin-top: 37px auto 0 auto;
   }
   .my-info-introduct {
     width: 100%;
@@ -719,15 +753,23 @@ footer a:hover {
   .chart-parts {
     margin-right: auto;
     margin-left: auto;
-    text-align: center;
+    width: 100%;
   }
   .my-skill-list {
     display: none;
   }
+  .my-skill-chart-list {
+    display: block;
+    width: 100%;
+    height: 300px;
+    position: relative;
+  }
+  .my-skill-chart {
+    margin-right: 0px;
+  }
   /*  portfolio	*/
   .portfolio-part {
     margin-top: 100px;
-    width: 470px;
   }
   .right-introduct, .left-introduct, .right-image, .left-image {
     float: none;

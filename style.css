@@ -464,7 +464,7 @@ footer a:hover {
   font: normal normal normal 30px/38px Didot;
   letter-spacing: 1.5px;
 }
-.contact-button:hover .sns-button-text a{
+.contact-button:hover .sns-button-text a {
   color: #FFFFFF;
 }
 .facebook-button {
@@ -474,7 +474,7 @@ footer a:hover {
   background: #3366CC 0% 0% no-repeat padding-box;
   border: 1px solid #3366CC;
 }
-.facebook-button p a{
+.facebook-button p a {
   color: #3366CC;
 }
 .twitter-button {
@@ -484,7 +484,7 @@ footer a:hover {
   background: #99CCFF 0% 0% no-repeat padding-box;
   border: 1px solid #99CCFF;
 }
-.twitter-button p a{
+.twitter-button p a {
   color: #99CCFF;
 }
 .blog-button {
@@ -494,7 +494,7 @@ footer a:hover {
   border: 1px solid #CCCCCC;
   background: #CCCCCC 0% 0% no-repeat padding-box;
 }
-.blog-button p a{
+.blog-button p a {
   color: #CCCCCC;
 }
 @media screen and (max-width:600px) {
@@ -512,6 +512,9 @@ footer a:hover {
   header {
     width: 100%;
     height: 180px;
+  }
+  header a::after {
+    display: none;
   }
   .header-image {
     border-bottom-left-radius: 70% 20%;
@@ -661,11 +664,11 @@ footer a:hover {
   }
   .loader h2 {
     font: 30px/30px Hiragino Mincho ProN;
-	line-height: 40px;
+    line-height: 40px;
   }
   .loader p {
     font: 10px/10px Hiragino Mincho ProN;
-	line-height: 40px;
+    line-height: 40px;
   }
   /* topページ	*/
   #index {
@@ -733,7 +736,7 @@ footer a:hover {
   .my-info-image {
     margin: 0 auto;
     text-align: center;
-	width: 100%;
+    width: 100%;
   }
   .my-info-image img {
     width: 100%;

@@ -15,12 +15,14 @@ HTML/CSSのコーディングとJavascriptで開発した自己紹介ポート�
 - スクロールアニメーション
 
 # Skill 
-- HTML/CSS
-- javascript
-- Jquery
-- Vegas2(Jquery プラグイン)
-- Photoshop
-- Adobe XD
+- Program skill
+  - HTML/CSS
+  - javascript
+  - Jquery
+  - Vegas2(Jquery プラグイン)
+- Design skill
+  - Photoshop
+  - Adobe XD
 
 # Future task
 - デザイン技術の向上(画像加工やイラストの勉強)

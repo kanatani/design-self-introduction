@@ -5,7 +5,8 @@
 
 
 # Description
-HTML/CSSのコーディングとJavascriptで開発した自己紹介ポートフォリオです。コーティングはもちろんの事、JavascriptやJqueryを使用した機能やアニメーションを使用して作成しました。
+HTML/CSSのコーディングとJavascriptで開発した自己紹介ポートフォリオです。AdobeXDでサイトを設計してから、コーディングを開始しました。コーティングはもちろんの事、JavascriptやJqueryを使用した機能やアニメーションを使用して作成しました。
+*XD Page(https://xd.adobe.com/view/699f8ad3-401e-47bb-a87e-4401cad01072-3ccc/)
 
 # Function
 - スライドショー
@@ -13,9 +14,16 @@ HTML/CSSのコーディングとJavascriptで開発した自己紹介ポート�
 - ローディング画面
 - スクロールアニメーション
 
-
 # Skill 
 - HTML/CSS
 - javascript
 - Jquery
 - Vegas2(Jquery プラグイン)
+- Photoshop
+- Adobe XD
+
+# Future task
+- デザイン技術の向上(画像加工やイラストの勉強)
+- UI/UXの向上
+- 他の人が見やすいコードを心掛ける
+- 作成時間の短縮・効率化

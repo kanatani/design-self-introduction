@@ -310,6 +310,7 @@ footer a:hover {
   width: 462px;
   height: 339px;
   border-radius: 57px;
+  object-fit: cover;
 }
 .chart-parts {
   width: 801px;

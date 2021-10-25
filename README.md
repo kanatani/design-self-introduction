@@ -6,7 +6,7 @@
 
 # Description
 HTML/CSSのコーディングとJavascriptで開発した自己紹介ポートフォリオです。AdobeXDでサイトを設計してから、コーディングを開始しました。コーティングはもちろんの事、JavascriptやJqueryを使用した機能やアニメーションを使用して作成しました。<br>
-*XD Pagehttps://xd.adobe.com/view/699f8ad3-401e-47bb-a87e-4401cad01072-3ccc/
+*[XD Page](https://xd.adobe.com/view/699f8ad3-401e-47bb-a87e-4401cad01072-3ccc/)
 
 # Function
 - スライドショー
